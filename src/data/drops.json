@@ -3,70 +3,70 @@
     "id": "billie-eilish-bad-guy",
     "track": "bad guy",
     "artist": "Billie Eilish",
-    "videoUrl": "/videos/bad_guys-billy_eillish.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/bad_guys-billy_eillish.mp4",
     "durationSec": 18
   },
   {
     "id": "the-weeknd-blinding-lights",
     "track": "Blinding Lights",
     "artist": "The Weeknd",
-    "videoUrl": "/videos/blinded_by_the_light-the_weeknd.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/blinded_by_the_light-the_weeknd.mp4",
     "durationSec": 20
   },
   {
     "id": "courtney-barnett-depreston",
     "track": "Depreston",
     "artist": "Courtney Barnett",
-    "videoUrl": "/videos/Depreston-Courtney_Barnett.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/Depreston-Courtney_Barnett.mp4",
     "durationSec": 18
   },
   {
     "id": "tame-impala-feels-like-we-only-go-backwards",
     "track": "Feels Like We Only Go Backwards",
     "artist": "Tame Impala",
-    "videoUrl": "/videos/Feels_Like_We_Only_Go_Backwards-Tame_Impala.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/Feels_Like_We_Only_Go_Backwards-Tame_Impala.mp4",
     "durationSec": 17
   },
   {
     "id": "daft-punk-get-lucky",
     "track": "Get Lucky",
     "artist": "Daft Punk",
-    "videoUrl": "/videos/get_lucky-daft_punk.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/get_lucky-daft_punk.mp4",
     "durationSec": 21
   },
   {
     "id": "ike-turner-getting-nasty",
     "track": "Getting Nasty",
     "artist": "Ike Turner",
-    "videoUrl": "/videos/getting_nasty-ike_turner.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/getting_nasty-ike_turner.mp4",
     "durationSec": 16
   },
   {
     "id": "king-gizzard-and-the-lizard-wizard-honey",
     "track": "Honey",
     "artist": "King Gizzard & The Lizard Wizard",
-    "videoUrl": "/videos/honey-king_gizzard_and_the_lizard_wizard.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/honey-king_gizzard_and_the_lizard_wizard.mp4",
     "durationSec": 27
   },
   {
     "id": "common-saints-idol-eyes",
     "track": "Idol Eyes",
     "artist": "Common Saints",
-    "videoUrl": "/videos/idol_eyes-common_saints.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/idol_eyes-common_saints.mp4",
     "durationSec": 16
   },
   {
     "id": "lana-del-rey-west-coast",
     "track": "West Coast",
     "artist": "Lana Del Rey",
-    "videoUrl": "/videos/west_coast-lana_del_rey.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/west_coast-lana_del_rey.mp4",
     "durationSec": 19
   },
   {
     "id": "modern-baseball-your-graduation",
     "track": "Your Graduation",
     "artist": "Modern Baseball",
-    "videoUrl": "/videos/Your_Graduation-Modern_Baseball.mp4",
+    "videoUrl": "/drops-visuals-survey/videos/Your_Graduation-Modern_Baseball.mp4",
     "durationSec": 14
   }
 ]
