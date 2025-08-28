@@ -1,8 +1,9 @@
 {
-  "name": "drop-test",
+  "name": "drops-visuals-survey",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://bdegman.github.io/drops-visuals-survey",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

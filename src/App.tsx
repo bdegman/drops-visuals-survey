@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { z } from 'zod';
