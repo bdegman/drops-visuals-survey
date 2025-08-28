@@ -4,13 +4,19 @@ import type { OnboardingData, SurveyData } from './types';
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  throw new Error('Missing Supabase environment variables');
-}
+// Create a mock client if environment variables are missing (for demo/preview purposes)
+const isSupabaseConfigured = supabaseUrl && supabaseAnonKey;
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = isSupabaseConfigured 
+  ? createClient(supabaseUrl, supabaseAnonKey)
+  : null;
 
 export async function insertOnboarding(data: OnboardingData) {
+  if (!supabase) {
+    console.warn('Supabase not configured - skipping onboarding data save');
+    return;
+  }
+
   try {
     const { error } = await supabase
       .from('onboarding')
@@ -34,6 +40,11 @@ export async function insertOnboarding(data: OnboardingData) {
 }
 
 export async function insertSurvey(data: SurveyData) {
+  if (!supabase) {
+    console.warn('Supabase not configured - skipping survey data save');
+    return;
+  }
+
   try {
     const { error } = await supabase
       .from('surveys')
@@ -56,6 +67,11 @@ export async function insertSurvey(data: SurveyData) {
 }
 
 export async function getAllOnboarding() {
+  if (!supabase) {
+    console.warn('Supabase not configured - returning empty array');
+    return [];
+  }
+
   const { data, error } = await supabase
     .from('onboarding')
     .select('*')
@@ -70,6 +86,11 @@ export async function getAllOnboarding() {
 }
 
 export async function getAllSurveys() {
+  if (!supabase) {
+    console.warn('Supabase not configured - returning empty array');
+    return [];
+  }
+
   const { data, error } = await supabase
     .from('surveys')
     .select('*')

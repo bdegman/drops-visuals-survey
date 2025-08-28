@@ -111,6 +111,18 @@ export default function Admin() {
   const urlKey = searchParams.get('key');
   const requiredKey = import.meta.env.VITE_ADMIN_KEY;
 
+  // If no admin key is configured, show a message
+  if (!requiredKey) {
+    return (
+      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+        <div className="text-white text-xl text-center">
+          <h1 className="text-2xl font-bold mb-4">Admin Panel</h1>
+          <p>Admin key not configured for this environment.</p>
+        </div>
+      </div>
+    );
+  }
+
   // If key is provided in URL and matches, bypass the gate
   if (urlKey === requiredKey) {
     return <AdminPanel />;
