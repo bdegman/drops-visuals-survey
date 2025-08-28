@@ -113,7 +113,7 @@ export default function VideoCard({
             </div>
 
             <h3 className="text-lg font-semibold mb-4 text-center">
-              How impactful were the visuals?
+              How impactful are the visuals?
             </h3>
             
             {/* Likert Scale */}
