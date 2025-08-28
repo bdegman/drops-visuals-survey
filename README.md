@@ -204,3 +204,4 @@ src/
 
 [Your License Here]
 # drops-visuals-survey
+# Updated for Supabase deployment
